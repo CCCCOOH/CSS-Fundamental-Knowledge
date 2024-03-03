@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 进行全局重置 */
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  /* position: relative; */
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+  /* position: relative; */
+}
+
+nav {
+  font-size: 18px;
+  /* margin: 15px; */
+}
+
+.post-header {
+  margin-bottom: 40px;
+  /* position: relative; */
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 10px solid #1098ad;
+  border-bottom: 10px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+}
+
+footer p {
+  color: red;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  /* 多个颜色采用下面的颜色 */
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  position: relative;
+  height: 50px;
+}
+
+h2::after {
+  content: "TOP";
+  color: #444;
+  background-color: #ffe70e;
+  font-size: 16px;
+  position: absolute;
+  padding: 5px 10px;
+  right: -50px;
+  top: -25px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 16px;
+  /* display: inline; */
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+/* #author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#Copyright {
+  font-size: 16px;
+} */
+
+.author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+/* body {
+  background-color:rgba(233, 165, 122, 0.518);
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(even) {
+  color: red;
+} */
+
+/* Misconception: this won't work */
+article p:last-child {
+  color: red;
+}
+
+/* Styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: rgb(255, 92, 33);
+  font-weight: bold;
+  text-decoration: underline black;
+}
+
+a:active {
+  background-color: rgba(146, 196, 225, 0.749);
+  font-style: italic;
+}
+
+.post-img {
+  /* width: 1000px; */
+  width: 100%;
+  height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered; */
+  margin-bottom: 30px;
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+/* LVHA */
+
+/* solute conflict */
+
+#Copyright {
+  color: black;
+}
+
+.text {
+  color: blue;
+}
+
+.copyright {
+  color: yellow;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+/* nav a {
+  background-color: orangered;
+  margin: 15px;
+  padding: 15px;
+  display: block;
+} */
+
+button {
+  cursor: pointer;
+  position: absolute;
+  border: none;
+  left: 55px;
+  top: 280px;
+  color: white;
+  background-color: #000;
+  /* transition: 0.4s; */
+}
+
+button:hover {
+  position: absolute;
+  left: 55px;
+  top: 280px;
+  color: #ff0000;
+  background-color: #fff;
+  transition: 0.4s;
+  /* border: 3px solid #000; */
+}

@@ -1,0 +1,94 @@
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+article {
+  border: 5px solid;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+article h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f5f5f5;
+}
+
+.shoesPrice {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.shoes-describe-1 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.shoes-describe-2 {
+  font-size: 15px;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button-add {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 40px;
+  transition-duration: 0.4s;
+}
+
+.button-add:hover {
+  cursor: pointer;
+  background-color: #eee;
+  color: black;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.24), 0 10px 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+.button-add:active {
+  background-color: black;
+  color: white;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.24), 0 10px 50px 0 rgba(0, 0, 0, 0.9);
+}
+
+.list {
+  list-style-type: square;
+}
+
+.more-information:link {
+  font-weight: 500;
+  background-color: #cfcfcf;
+  color: rgb(72, 72, 72);
+  text-decoration: none;
+}
+
+.more-information:visited {
+  font-weight: 500;
+  background-color: #cfcfcf;
+  color: rgb(72, 72, 72);
+  text-decoration: none;
+}
+
+.more-information:hover {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.more-information:active {
+  font-weight: 550;
+  text-decoration: underline;
+}
+
+.shoes-img {
+  border-top: 5px solid;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  border-left: 5px solid #7f7f7f;
+}
